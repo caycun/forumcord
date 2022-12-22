@@ -1,6 +1,6 @@
 {
   "name": "forumcord",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "repository": "https://github.com/kencun/forumcord",
   "private": true,
   "license": "MIT",
@@ -28,8 +28,7 @@
     "#lib/*": "./src/lib/*",
     "#utils/*": "./src/lib/utils/*",
     "#structs/*": "./src/lib/structs/*",
-    "#models/*": "./src/lib/models/*",
-    "#utils/*": "./src/lib/utils/*"
+    "#models/*": "./src/lib/models/*"
   },
   "type": "module"
 }
