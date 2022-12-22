@@ -14,7 +14,8 @@
     "@discordjs/builders": "^1.4.0",
     "@sapphire/framework": "^3.1.4",
     "discord.js": "13",
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3",
+    "mongoose": "^6.8.1"
   },
   "devDependencies": {
     "eslint": "^8.30.0",
@@ -26,7 +27,9 @@
     "#vars": "./src/vars.js",
     "#lib/*": "./src/lib/*",
     "#utils/*": "./src/lib/utils/*",
-    "#structs/*": "./src/lib/structs/*"
+    "#structs/*": "./src/lib/structs/*",
+    "#models/*": "./src/lib/models/*",
+    "#utils/*": "./src/lib/utils/*"
   },
   "type": "module"
 }
