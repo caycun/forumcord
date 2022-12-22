@@ -2,6 +2,7 @@
   "name": "forumcord",
   "version": "0.0.0",
   "repository": "https://github.com/kencun/forumcord",
+  "private": true,
   "license": "MIT",
   "main": "src/index.js",
   "scripts": {
