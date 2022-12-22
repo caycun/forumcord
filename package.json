@@ -19,5 +19,13 @@
     "eslint": "^8.30.0",
     "nodemon": "^2.0.20"
   },
+  "imports": {
+    "#root/*": "./*",
+    "#src/*": "./src/*",
+    "#vars": "./src/vars.js",
+    "#lib/*": "./src/lib/*",
+    "#utils/*": "./src/lib/utils/*",
+    "#structs/*": "./src/lib/structs/*"
+  },
   "type": "module"
 }
