@@ -1,0 +1,22 @@
+{
+  "name": "forumcord",
+  "version": "0.0.0",
+  "repository": "https://github.com/kencun/forumcord",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "lint": "eslint --fix ."
+  },
+  "dependencies": {
+    "@sapphire/framework": "^3.1.4",
+    "discord.js": "13",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "nodemon": "^2.0.20"
+  },
+  "type": "module"
+}
